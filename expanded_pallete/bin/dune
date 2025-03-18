@@ -1,0 +1,4 @@
+(executable
+ (public_name expanded_pallete)
+ (name main)
+ (libraries expanded_pallete))
