@@ -1,2 +1,2 @@
 (test
- (name test_mixing_palette))
+ (name test_gradient-only)
