@@ -1,4 +1,4 @@
 (executable
-  (public_name expanded_palette )
+  (public_name gradient_only )
   (name main)
  (libraries claudius))

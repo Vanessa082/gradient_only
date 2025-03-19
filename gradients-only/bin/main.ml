@@ -8,11 +8,9 @@ let tick t screen _prev _inputs =
     let yf = float_of_int y /. float_of_int height in
 
     let shift = (sin (float_of_int t /. 50.0) +. 1.0) /. 2.0 in
-    let r = int_of_float (255. *. xf *. shift) in
-    let g = int_of_float (255. *. yf *. shift) in
-    let b = int_of_float (255. *. (1.0 -. shift)) in
-
-    (r lsl 16) lor (g lsl 8) lor b
+    let gradient_value = int_of_float (255. *. (xf *. 0.5 +. yf *. 0.5 +. shift *. 0.5)) in
+    
+    gradient_value mod 256  
   )
 
 let () =
