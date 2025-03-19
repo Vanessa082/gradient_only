@@ -1,6 +1,6 @@
 # Gradient Only
 
-Gradient Only is a creative animated demo built using the [Claudius](https://github.com/claudiusFX/Claudius) library for OCaml.Inspired by Genuary Day 22: Gradients Only .Although the prompt specifies "Gradients only," the palette is still defined using Claudius.Palette.generate_plasma_palette 256 to maintain compatibility with the Claudius framework.
+Gradient Only is a creative animated demo built using the [Claudius](https://github.com/claudiusFX/Claudius) library for OCaml.Inspired by Genuary Day 22: Gradients the palette is  defined using Claudius.Palette.generate_plasma_palette 256.
 
 ## Prerequisites
 
