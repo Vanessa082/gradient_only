@@ -15,11 +15,16 @@ Mixing Palette is a creative animated demo built using the [Claudius](https://gi
 - [dune](https://dune.build/) build system
 - [Claudius](https://github.com/claudiusFX/Claudius) library (vendored into your project or installed separately)
   
-
 ## Installation
 
 1. **Clone the Repository:**
 
    ```bash
-   git clone <your-repo-url>
-   cd mixing-palette
+   $ git clone https://github.com/Vanessa082/mixingcolorspalette
+      
+    $ cd mixing-palette
+   ```
+
+## Preview
+
+[Mixing Pallette](./assets/mixing-pallete.webm)
