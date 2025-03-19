@@ -1,0 +1,4 @@
+(executable
+  (public_name expanded_palette )
+  (name main)
+ (libraries claudius))
