@@ -23,4 +23,4 @@ Gradient Only is a creative animated demo built using the [Claudius](https://git
 
 ## Preview
 
-[Screencast from 2025-03-19 12-41-18.webm](https://github.com/user-attachments/assets/20965150-179e-421d-97a8-b14ea469d5ce)
+[gradient-only.webm](https://github.com/user-attachments/assets/482517ce-89f2-45a9-a530-7e7d3a66aa60)
