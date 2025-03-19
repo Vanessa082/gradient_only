@@ -1,6 +1,6 @@
 # Gradient Only
 
-Gradient Only is a creative animated demo built using the [Claudius](https://github.com/claudiusFX/Claudius) library for OCaml. It generates a dynamic, swirling gradient for each pixel, the red (r) component increases with the x-coordinate, the green (g) component increases with the y-coordinate, and the blue (b) component decreases as the red increases, resulting in a gradient that transitions smoothly across the screen.Although the prompt specifies "Gradients only," the palette is still defined using Claudius.Palette.generate_plasma_palette 256 to maintain compatibility with the Claudius framework.
+Gradient Only is a creative animated demo built using the [Claudius](https://github.com/claudiusFX/Claudius) library for OCaml.Inspired by Genuary Day 22: Gradients Only .Although the prompt specifies "Gradients only," the palette is still defined using Claudius.Palette.generate_plasma_palette 256 to maintain compatibility with the Claudius framework.
 
 ## Prerequisites
 
