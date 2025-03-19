@@ -1,6 +1,5 @@
 open Claudius
 
-
 type color = int
 
 let int_to_rgb (c : color) : int * int * int =
@@ -49,5 +48,5 @@ let tick t screen _prev _inputs =
 (* ---------- Main Entry Point ---------- *)
 
 let () =
-  Screen.create 640 480 1 (Claudius.Palette.generate_plasma_palette 16)
+  Screen.create 640 480 1 (Claudius.Palette.generate_plasma_palette 1024)
   |> Base.run "Mixing Palette" None tick
