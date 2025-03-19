@@ -27,4 +27,4 @@ Mixing Palette is a creative animated demo built using the [Claudius](https://gi
 
 ## Preview
 
-[Mixing Pallette](./assets/mixing-pallete.webm)
+[Screencast from 2025-03-19 12-41-18.webm](https://github.com/user-attachments/assets/20965150-179e-421d-97a8-b14ea469d5ce)
