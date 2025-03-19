@@ -1,12 +1,6 @@
-# Mixing Palette
+# Gradient Only
 
-Mixing Palette is a creative animated demo built using the [Claudius](https://github.com/claudiusFX/Claudius) library for OCaml. It generates a dynamic, swirling gradient effect by blending three base colors (red, green, and blue) over time. The animation is driven by a function that blends the colors based on each pixel's distance and angle from the center of the screen, as well as the elapsed time.
-
-## Features
-
-- **Dynamic Color Blending:** Smoothly blends red, green, and blue to create a continuously evolving gradient.
-- **Radial Animation:** Uses the distance and angle of each pixel from the center to drive the color mix, producing a swirling, radial effect.
-- **Minimalistic & Creative:** A short and inspiring demo showcasing how to harness the power of Claudius for retro-style graphics.
+Gradient Only is a creative animated demo built using the [Claudius](https://github.com/claudiusFX/Claudius) library for OCaml. It generates a dynamic, swirling gradient for each pixel, the red (r) component increases with the x-coordinate, the green (g) component increases with the y-coordinate, and the blue (b) component decreases as the red increases, resulting in a gradient that transitions smoothly across the screen.Although the prompt specifies "Gradients only," the palette is still defined using Claudius.Palette.generate_plasma_palette 256 to maintain compatibility with the Claudius framework.
 
 ## Prerequisites
 
@@ -21,8 +15,10 @@ Mixing Palette is a creative animated demo built using the [Claudius](https://gi
 
    ```bash
    $ git clone https://github.com/Vanessa082/mixingcolorspalette
-      
-    $ cd mixing-palette
+   
+    $ cd expanded-palette
+    $ dune build
+    $ dune exec ./bin/main.exe
    ```
 
 ## Preview
