@@ -1,11 +1,11 @@
 (lang dune 3.17)
 
-(name mixing_palette)
+(name horizontalgradient)
 
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github Vanessa082/reponame))
 
 (authors "Author Name <author@example.com>")
 
@@ -16,7 +16,7 @@
 (documentation https://url/to/documentation)
 
 (package
- (name mixing_palette)
+ (name horizontalgradient)
  (synopsis "A short synopsis")
  (description "A longer description")
  (depends ocaml)
