@@ -1,7 +1,0 @@
-# dune init proj expanded_pallete
-# OCAMLPARAM: unset
-# Shared cache: enabled-except-user-rules
-# Shared cache location: /home/wah-vanessa/.cache/dune/db
-# Workspace root:
-# /home/wah-vanessa/Desktop/outreach-2025/Dynamicwaveripple/expanded-pallete/expanded_pallete
-# Auto-detected concurrency: 8
