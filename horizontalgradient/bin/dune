@@ -1,4 +1,5 @@
 (executable
  (public_name horizontalgradient)
  (name main)
- (libraries horizontalgradient))
+ (libraries claudius))
+
